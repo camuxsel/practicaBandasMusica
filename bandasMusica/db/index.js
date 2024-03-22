@@ -81,5 +81,7 @@ const bandas = {
         id: 10,
         video: "https://www.youtube.com/watch?v=XqgWJ_yaU7E"
     }
-]
+    ]
 }
+
+module.exports = bandas;

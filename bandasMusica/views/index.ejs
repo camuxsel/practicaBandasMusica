@@ -7,5 +7,16 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+
+    <% for (let i = 0; i < resultados.length; i++) { %>
+      <ul>
+        <a href="/id/:<%=resultados[i].id%>">
+          <li> <%= resultados[i].nombre %> </li>
+          <li> <img src="<%= resultados[i].cover%>" alt=""></li>
+        </a>
+      </ul>
+      
+    <% } %>
+
   </body>
 </html>
